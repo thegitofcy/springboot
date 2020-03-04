@@ -1,0 +1,47 @@
+{
+  "groups": [
+    {
+      "name": "env.cp",
+      "type": "com.cy.example.springboot.base.env.model.EnvDateBy_ConfigurationProperties",
+      "sourceType": "com.cy.example.springboot.base.env.model.EnvDateBy_ConfigurationProperties"
+    },
+    {
+      "name": "mapping.to.class.attribute",
+      "type": "com.cy.example.springboot.base.env.model.EnvDateByConfigFile",
+      "sourceType": "com.cy.example.springboot.base.env.model.EnvDateByConfigFile"
+    }
+  ],
+  "properties": [
+    {
+      "name": "env.cp.passwd",
+      "type": "java.lang.String",
+      "sourceType": "com.cy.example.springboot.base.env.model.EnvDateBy_ConfigurationProperties"
+    },
+    {
+      "name": "env.cp.url",
+      "type": "java.lang.String",
+      "sourceType": "com.cy.example.springboot.base.env.model.EnvDateBy_ConfigurationProperties"
+    },
+    {
+      "name": "env.cp.username",
+      "type": "java.lang.String",
+      "sourceType": "com.cy.example.springboot.base.env.model.EnvDateBy_ConfigurationProperties"
+    },
+    {
+      "name": "mapping.to.class.attribute.attr1",
+      "type": "java.lang.String",
+      "sourceType": "com.cy.example.springboot.base.env.model.EnvDateByConfigFile"
+    },
+    {
+      "name": "mapping.to.class.attribute.attr2",
+      "type": "java.lang.String",
+      "sourceType": "com.cy.example.springboot.base.env.model.EnvDateByConfigFile"
+    },
+    {
+      "name": "mapping.to.class.attribute.attr3",
+      "type": "java.lang.String",
+      "sourceType": "com.cy.example.springboot.base.env.model.EnvDateByConfigFile"
+    }
+  ],
+  "hints": []
+}

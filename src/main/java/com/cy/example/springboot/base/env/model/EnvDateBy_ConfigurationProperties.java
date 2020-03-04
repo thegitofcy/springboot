@@ -1,5 +1,6 @@
 package com.cy.example.springboot.base.env.model;
 
+import com.cy.example.springboot.learn.annoations.MyAnnoation;
 import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.stereotype.Component;
@@ -12,7 +13,10 @@ import org.springframework.stereotype.Component;
 @ConfigurationProperties(prefix = "env.cp")
 @Data
 public class EnvDateBy_ConfigurationProperties {
+    @MyAnnoation
     private String username;
+    @MyAnnoation
     private String passwd;
+    @MyAnnoation
     private String url;
 }

@@ -16,16 +16,20 @@ import javax.servlet.annotation.WebListener;
 public class ExampleServletRequestAttributeListener implements ServletRequestAttributeListener {
     @Override
     public void attributeAdded(ServletRequestAttributeEvent srae) {
+//        log.info("当前请求增加属性了, 属性名称: [ {} ], 属性值 : [ {} ]", srae.getName(), srae.getValue());
         log.info("当前请求增加属性了");
+
     }
 
     @Override
     public void attributeRemoved(ServletRequestAttributeEvent srae) {
+//        log.info("当前请求移除属性了, 属性名称: [ {} ], 属性值 : [ {} ]", srae.getName(), srae.getValue());
         log.info("当前请求移除属性了");
     }
 
     @Override
     public void attributeReplaced(ServletRequestAttributeEvent srae) {
+//        log.info("当前请求变更属性了, 属性名称: [ {} ], 属性值 : [ {} ]", srae.getName(), srae.getValue());
         log.info("当前请求变更属性了");
     }
 }
